@@ -1,0 +1,20 @@
+Programming languages are those who use compiler and Scripting languages are those which use Interpreter.
+Compiler and Interpreter both converts HLL into machine language(binary language 0's and 1's).
+ *Is there any difference between Programming Languages and Scripting Languages?
+     Yes. In case of scripting language, Interpretor compiles HLL into machine language line by line
+          whereas Compiler compiles HLL language into machine language in one chunk.
+          So, a scripting language is also called programming language.
+     Programming language(PL) : C, C#, C++, Java, Pascal, COBOL etc. 
+     Scripting language(SL) : JS, Python, Ruby, Shell, Pearl, PHP etc. 
+     PL creates a .exe file whereas SL doesn't. PL is self executable means doesn't require amy host whereas SL requires host like Browsers.
+     Pl requires program to be compiled before execution whereas SL will be interpreted line by line while execution in host(Browser does interpretation).
+     We can design a interpreter for C lang and C lang can be used as a scripting lang. Same way Compiler can be designed for JS and can used as a programming language.
+     V8 JS engine of Chrome compiles the JS code into machine language.  
+     So The bottom line is the environment decides the feature and generates the difference bw SL and PL.
+     PL areused to build the application whereas SL are used to control the app. 
+
+TypeScript(TS .ts or .tsx) is super set of JS(.js).(JS plus other features). JS does not have MultiThreading or MultiProcessing capabalities.
+     TS is trans compiled or transpiled into JS code before execution as browser only understand JS.
+     TS is used in Client side whereas JS both side.
+     TS have Syntax(rules for writing programs) and that syntax is composed of Modules, Functions, Varibles, Statement and expression etc.
+     whereas in JS everything is written inside script tag.
